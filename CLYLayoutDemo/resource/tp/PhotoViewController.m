@@ -7,13 +7,9 @@
 //
 
 #import "PhotoViewController.h"
-#import "CLYlineLayout.h"
+#import "CLYBaseLayout.h"
 #import "CLYImageCell.h"
-#import "CLYStackLayout.h"
-#import "CLYCircleLayout.h"
 #import "ClyTabbar.h"
-#import "UIView+Extension.h"
-#import "LYWaterflowLyaout.h"
 #import "PViewController.h"
 @interface PhotoViewController () <UICollectionViewDataSource,UICollectionViewDelegate>
 @property (nonatomic, strong) NSMutableArray *images;

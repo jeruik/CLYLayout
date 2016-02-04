@@ -90,11 +90,11 @@
 		C9E9B2CB1C6347E0002D1F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2751C6347E0002D1F34 /* ViewController.m */; };
 		C9E9B2CD1C6348F8002D1F34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E9B2CC1C6348F7002D1F34 /* Default-568h@2x.png */; };
 		C9E9B2CF1C63491F002D1F34 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E9B2CE1C63491F002D1F34 /* Launch Screen.storyboard */; };
-		C9E9B2DD1C63500B002D1F34 /* CLYCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2D41C63500B002D1F34 /* CLYCircleLayout.m */; };
-		C9E9B2DE1C63500B002D1F34 /* CLYlineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2D61C63500B002D1F34 /* CLYlineLayout.m */; };
-		C9E9B2DF1C63500B002D1F34 /* CLYStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2D81C63500B002D1F34 /* CLYStackLayout.m */; };
-		C9E9B2E01C63500B002D1F34 /* LYWaterflowLyaout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2DA1C63500B002D1F34 /* LYWaterflowLyaout.m */; };
-		C9E9B2E11C63500B002D1F34 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2DC1C63500B002D1F34 /* UIView+Extension.m */; };
+		C9E9B2F01C63526F002D1F34 /* CLYCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2E71C63526F002D1F34 /* CLYCircleLayout.m */; };
+		C9E9B2F11C63526F002D1F34 /* CLYlineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2E91C63526F002D1F34 /* CLYlineLayout.m */; };
+		C9E9B2F21C63526F002D1F34 /* CLYStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2EB1C63526F002D1F34 /* CLYStackLayout.m */; };
+		C9E9B2F31C63526F002D1F34 /* LYWaterflowLyaout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2ED1C63526F002D1F34 /* LYWaterflowLyaout.m */; };
+		C9E9B2F41C63526F002D1F34 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9B2EF1C63526F002D1F34 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,7 +157,7 @@
 		C9E9B2101C6347E0002D1F34 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 		C9E9B2111C6347E0002D1F34 /* MMMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMMViewController.h; path = ../resource/MMMViewController.h; sourceTree = "<group>"; };
 		C9E9B2121C6347E0002D1F34 /* MMMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMMViewController.m; path = ../resource/MMMViewController.m; sourceTree = "<group>"; };
-		C9E9B2141C6347E0002D1F34 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		C9E9B2141C6347E0002D1F34 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = 1.plist; path = ../resource/photo/1.plist; sourceTree = "<group>"; };
 		C9E9B2151C6347E0002D1F34 /* HMShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMShop.h; sourceTree = "<group>"; };
 		C9E9B2161C6347E0002D1F34 /* HMShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMShop.m; sourceTree = "<group>"; };
 		C9E9B2171C6347E0002D1F34 /* HMShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMShopCell.h; sourceTree = "<group>"; };
@@ -253,16 +253,17 @@
 		C9E9B2CC1C6348F7002D1F34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		C9E9B2CE1C63491F002D1F34 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C9E9B2D11C634FD6002D1F34 /* CLYLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLYLayout-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		C9E9B2D31C63500B002D1F34 /* CLYCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYCircleLayout.h; sourceTree = "<group>"; };
-		C9E9B2D41C63500B002D1F34 /* CLYCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYCircleLayout.m; sourceTree = "<group>"; };
-		C9E9B2D51C63500B002D1F34 /* CLYlineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYlineLayout.h; sourceTree = "<group>"; };
-		C9E9B2D61C63500B002D1F34 /* CLYlineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYlineLayout.m; sourceTree = "<group>"; };
-		C9E9B2D71C63500B002D1F34 /* CLYStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYStackLayout.h; sourceTree = "<group>"; };
-		C9E9B2D81C63500B002D1F34 /* CLYStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYStackLayout.m; sourceTree = "<group>"; };
-		C9E9B2D91C63500B002D1F34 /* LYWaterflowLyaout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYWaterflowLyaout.h; sourceTree = "<group>"; };
-		C9E9B2DA1C63500B002D1F34 /* LYWaterflowLyaout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYWaterflowLyaout.m; sourceTree = "<group>"; };
-		C9E9B2DB1C63500B002D1F34 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		C9E9B2DC1C63500B002D1F34 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C9E9B2E51C63526F002D1F34 /* CLYBaseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYBaseLayout.h; sourceTree = "<group>"; };
+		C9E9B2E61C63526F002D1F34 /* CLYCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYCircleLayout.h; sourceTree = "<group>"; };
+		C9E9B2E71C63526F002D1F34 /* CLYCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYCircleLayout.m; sourceTree = "<group>"; };
+		C9E9B2E81C63526F002D1F34 /* CLYlineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYlineLayout.h; sourceTree = "<group>"; };
+		C9E9B2E91C63526F002D1F34 /* CLYlineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYlineLayout.m; sourceTree = "<group>"; };
+		C9E9B2EA1C63526F002D1F34 /* CLYStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYStackLayout.h; sourceTree = "<group>"; };
+		C9E9B2EB1C63526F002D1F34 /* CLYStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYStackLayout.m; sourceTree = "<group>"; };
+		C9E9B2EC1C63526F002D1F34 /* LYWaterflowLyaout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYWaterflowLyaout.h; sourceTree = "<group>"; };
+		C9E9B2ED1C63526F002D1F34 /* LYWaterflowLyaout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYWaterflowLyaout.m; sourceTree = "<group>"; };
+		C9E9B2EE1C63526F002D1F34 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C9E9B2EF1C63526F002D1F34 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,7 +314,7 @@
 		C9E9B1461C6347B3002D1F34 /* CLYLayout */ = {
 			isa = PBXGroup;
 			children = (
-				C9E9B2D21C63500B002D1F34 /* CLYLayout */,
+				C9E9B2E41C63526F002D1F34 /* CLYLayout */,
 				C9E9B2D01C634A21002D1F34 /* other */,
 				C9E9B2131C6347E0002D1F34 /* collectionLyout */,
 				C9E9B2671C6347E0002D1F34 /* photo */,
@@ -325,6 +326,8 @@
 		C9E9B1471C6347B3002D1F34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9E9B1581C6347B3002D1F34 /* Info.plist */,
+				C9E9B2141C6347E0002D1F34 /* 1.plist */,
 				C9E9B2D11C634FD6002D1F34 /* CLYLayout-Prefix.pch */,
 				C9E9B1F71C6347E0002D1F34 /* picture */,
 				C9E9B2711C6347E0002D1F34 /* tabbar_separate_selected_bg.png */,
@@ -394,17 +397,14 @@
 		C9E9B2131C6347E0002D1F34 /* collectionLyout */ = {
 			isa = PBXGroup;
 			children = (
-				C9E9B2141C6347E0002D1F34 /* 1.plist */,
+				C9E9B2E21C635110002D1F34 /* lib */,
 				C9E9B2151C6347E0002D1F34 /* HMShop.h */,
 				C9E9B2161C6347E0002D1F34 /* HMShop.m */,
 				C9E9B2171C6347E0002D1F34 /* HMShopCell.h */,
 				C9E9B2181C6347E0002D1F34 /* HMShopCell.m */,
 				C9E9B2191C6347E0002D1F34 /* HMShopCell.xib */,
-				C9E9B21A1C6347E0002D1F34 /* MJExtension */,
-				C9E9B2321C6347E0002D1F34 /* MJRefresh */,
 				C9E9B2431C6347E0002D1F34 /* PViewController.h */,
 				C9E9B2441C6347E0002D1F34 /* PViewController.m */,
-				C9E9B2451C6347E0002D1F34 /* SDWebImage */,
 			);
 			name = collectionLyout;
 			path = ../resource/photo;
@@ -529,24 +529,34 @@
 				C9E9B2751C6347E0002D1F34 /* ViewController.m */,
 				C9E9B14A1C6347B3002D1F34 /* AppDelegate.h */,
 				C9E9B14B1C6347B3002D1F34 /* AppDelegate.m */,
-				C9E9B1581C6347B3002D1F34 /* Info.plist */,
 			);
 			name = other;
 			sourceTree = "<group>";
 		};
-		C9E9B2D21C63500B002D1F34 /* CLYLayout */ = {
+		C9E9B2E21C635110002D1F34 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				C9E9B2D31C63500B002D1F34 /* CLYCircleLayout.h */,
-				C9E9B2D41C63500B002D1F34 /* CLYCircleLayout.m */,
-				C9E9B2D51C63500B002D1F34 /* CLYlineLayout.h */,
-				C9E9B2D61C63500B002D1F34 /* CLYlineLayout.m */,
-				C9E9B2D71C63500B002D1F34 /* CLYStackLayout.h */,
-				C9E9B2D81C63500B002D1F34 /* CLYStackLayout.m */,
-				C9E9B2D91C63500B002D1F34 /* LYWaterflowLyaout.h */,
-				C9E9B2DA1C63500B002D1F34 /* LYWaterflowLyaout.m */,
-				C9E9B2DB1C63500B002D1F34 /* UIView+Extension.h */,
-				C9E9B2DC1C63500B002D1F34 /* UIView+Extension.m */,
+				C9E9B21A1C6347E0002D1F34 /* MJExtension */,
+				C9E9B2321C6347E0002D1F34 /* MJRefresh */,
+				C9E9B2451C6347E0002D1F34 /* SDWebImage */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		C9E9B2E41C63526F002D1F34 /* CLYLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C9E9B2E51C63526F002D1F34 /* CLYBaseLayout.h */,
+				C9E9B2E61C63526F002D1F34 /* CLYCircleLayout.h */,
+				C9E9B2E71C63526F002D1F34 /* CLYCircleLayout.m */,
+				C9E9B2E81C63526F002D1F34 /* CLYlineLayout.h */,
+				C9E9B2E91C63526F002D1F34 /* CLYlineLayout.m */,
+				C9E9B2EA1C63526F002D1F34 /* CLYStackLayout.h */,
+				C9E9B2EB1C63526F002D1F34 /* CLYStackLayout.m */,
+				C9E9B2EC1C63526F002D1F34 /* LYWaterflowLyaout.h */,
+				C9E9B2ED1C63526F002D1F34 /* LYWaterflowLyaout.m */,
+				C9E9B2EE1C63526F002D1F34 /* UIView+Extension.h */,
+				C9E9B2EF1C63526F002D1F34 /* UIView+Extension.m */,
 			);
 			name = CLYLayout;
 			path = ../../CLYLayout;
@@ -720,7 +730,7 @@
 				C9E9B2CB1C6347E0002D1F34 /* ViewController.m in Sources */,
 				C9E9B2AF1C6347E0002D1F34 /* MJRefreshHeaderView.m in Sources */,
 				C9E9B2A91C6347E0002D1F34 /* NSObject+MJKeyValue.m in Sources */,
-				C9E9B2E01C63500B002D1F34 /* LYWaterflowLyaout.m in Sources */,
+				C9E9B2F31C63526F002D1F34 /* LYWaterflowLyaout.m in Sources */,
 				C9E9B2C21C6347E0002D1F34 /* UIImageView+WebCache.m in Sources */,
 				C9E9B2C71C6347E0002D1F34 /* ClyTabbarBtuuon.m in Sources */,
 				C9E9B2BD1C6347E0002D1F34 /* UIButton+WebCache.m in Sources */,
@@ -734,13 +744,13 @@
 				C9E9B2B71C6347E0002D1F34 /* SDWebImageCompat.m in Sources */,
 				C9E9B2B91C6347E0002D1F34 /* SDWebImageDownloader.m in Sources */,
 				C9E9B2BA1C6347E0002D1F34 /* SDWebImageDownloaderOperation.m in Sources */,
-				C9E9B2DF1C63500B002D1F34 /* CLYStackLayout.m in Sources */,
+				C9E9B2F21C63526F002D1F34 /* CLYStackLayout.m in Sources */,
 				C9E9B2B81C6347E0002D1F34 /* SDWebImageDecoder.m in Sources */,
 				C9E9B2BB1C6347E0002D1F34 /* SDWebImageManager.m in Sources */,
 				C9E9B2C41C6347E0002D1F34 /* CLYImageCell.m in Sources */,
 				C9E9B2A71C6347E0002D1F34 /* MJTypeEncoding.m in Sources */,
 				C9E9B29B1C6347E0002D1F34 /* MMMViewController.m in Sources */,
-				C9E9B2DE1C63500B002D1F34 /* CLYlineLayout.m in Sources */,
+				C9E9B2F11C63526F002D1F34 /* CLYlineLayout.m in Sources */,
 				C9E9B2AE1C6347E0002D1F34 /* MJRefreshFooterView.m in Sources */,
 				C9E9B2A21C6347E0002D1F34 /* MJFoundation.m in Sources */,
 				C9E9B2A51C6347E0002D1F34 /* MJMethod.m in Sources */,
@@ -753,11 +763,11 @@
 				C9E9B2BF1C6347E0002D1F34 /* UIImage+MultiFormat.m in Sources */,
 				C9E9B29E1C6347E0002D1F34 /* HMShopCell.m in Sources */,
 				C9E9B2B51C6347E0002D1F34 /* NSData+ImageContentType.m in Sources */,
-				C9E9B2E11C63500B002D1F34 /* UIView+Extension.m in Sources */,
+				C9E9B2F41C63526F002D1F34 /* UIView+Extension.m in Sources */,
 				C9E9B2A61C6347E0002D1F34 /* MJType.m in Sources */,
 				C9E9B2C01C6347E0002D1F34 /* UIImage+WebP.m in Sources */,
 				C9E9B2A01C6347E0002D1F34 /* MJArgument.m in Sources */,
-				C9E9B2DD1C63500B002D1F34 /* CLYCircleLayout.m in Sources */,
+				C9E9B2F01C63526F002D1F34 /* CLYCircleLayout.m in Sources */,
 				C9E9B2B31C6347E0002D1F34 /* PViewController.m in Sources */,
 				C9E9B29D1C6347E0002D1F34 /* HMShop.m in Sources */,
 				C9E9B2AC1C6347E0002D1F34 /* MJRefreshBaseView.m in Sources */,
